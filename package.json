@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "homepage": "https://Muniraj8055.github.io/portfolio",
+=======
+  "homepage": "./https://Muniraj8055.github.io/portfolio",
+>>>>>>> ae9404e4786720c690ad6cd28665c43a0811cbed
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
