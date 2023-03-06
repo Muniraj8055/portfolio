@@ -1,8 +1,6 @@
-// import { AOS } from 'aos'
+
 import React from 'react'
 import hero from '../assets/muni.jpg'
-
-// import 'aos/dist/aos.css'
 
 
 
@@ -37,11 +35,11 @@ const Hero = () => {
        className='min-h-screen flex py-10 md:flex-row-reverse flex-col items-center'
        >
 
-      <div className='flex-1 flex items-center md:justify-start justify-center h-full' data-aos="fade-in" >
+      <div className='flex-1 flex items-center md:justify-start justify-center h-full' data-aos="zoom-in"  >
         <img className='h-3/5 w-3/5 scale-90 hover:scale-95 ease-in duration-500 object-cover rounded-full' src={hero} alt='' />
       </div>
 
-      <div className='flex-1'>
+      <div className='flex-1' data-aos="zoom-in">
         <div className=' text-center'>
           <h1 className='md:text-5xl text-2xl md:leading-normal leading-10 text-white font-bold'>
             <span className='text-cyan-600 md:text-6xl text-5xl'>

@@ -61,7 +61,7 @@ const Project = () => {
   ];
   return (
     <section id="projects" className="py-16 text-white  ">
-      <div className="text-center">
+      <div className="text-center"data-aos="fade-right">
         <h3 className="text-4xl font-semibold">
           My <span className="text-cyan-600">Projects</span>
         </h3>
@@ -95,7 +95,7 @@ const Project = () => {
           >
             {projects.map((project_info, i) => (
               <SwiperSlide key={i}>
-                <div className="h-1/2 w-full p-3 bg-slate-700 rounded-xl">
+                <div className="h-1/2 w-full p-3 bg-slate-700 rounded-xl" data-aos="fade-left">
                   <img src={project_info.img} alt="" className="rounded-lg h-full w-full object-contain" />
                   <h3 className="text-xl ">{project_info.name}</h3>
                   <p className='py-2 text-zinc-400' >{project_info.desc}</p>

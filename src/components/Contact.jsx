@@ -43,11 +43,13 @@ const sendEmail = (e) => {
   return (
     <section id='contact' className='py-10 px-3 text-white'>
       <div className='text-center mt-8'>
+       <div data-aos="fade-right">
         <h3 className='text-4xl font-semibold'>
-          Contact <span className='text-cyan-600'>Me</span>
-        </h3>
-        <p className='text-gray-400 mt-3 text-lg'>Get in touch</p>
-        <div className='mt-10 flex md:flex-row flex-col gap-6 max-w-5xl bg-gray-800 md:p-6 p-2 rounded-lg mx-auto'>
+            Contact <span className='text-cyan-600'>Me</span>
+          </h3>
+          <p className='text-gray-400 mt-3 text-lg'>Get in touch</p>
+       </div>
+        <div className='mt-10 flex md:flex-row flex-col gap-6 max-w-5xl bg-gray-800 md:p-6 p-2 rounded-lg mx-auto' data-aos="fade-up">
           <form className='flex flex-col flex-1 gap-5' ref={form} onSubmit={sendEmail} >
             <input type="text" placeholder='Your Name' name='user_name' required/>
             <input type='email' placeholder='Your Email Adress' name='user_email' required />
