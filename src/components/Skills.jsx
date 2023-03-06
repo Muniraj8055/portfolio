@@ -98,18 +98,19 @@ const Skills = () => {
       className="bg-gray-900 w-full h-screen experience "
     >
       <div className="max-w-screen-lg mx-auto p-4  flex flex-col justify-center w-full h-full text-white">
-        <div className="">
+        <div className="" data-aos="fade-right">
           <p className="text-4xl text-center font-semibold ">
             SKILLS
           </p>
           {/* <p className="py-6 text-center">These are the technologies I've worked with and used them in my projects.</p> */}
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-6 px-10 sm:px-0">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-6 px-10 sm:px-0" >
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
               className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
+              data-aos="flip-left"
             >
               <img src={src} alt="" className="w-20 mx-auto" />
               <p className="mt-4">{title}</p>

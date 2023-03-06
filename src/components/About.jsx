@@ -7,7 +7,7 @@ import doc from "../assets/resume.pdf"
 const About = () => {
   return (
     <section id="about" className='py-10 text-white'>
-        <div className='text-center mt-8'>
+        <div className='text-center mt-8'data-aos="fade-up">
           <h3 className='text-4xl font-semibold'>
             About <span className='text-cyan-600'>Me</span>
           </h3>
@@ -15,7 +15,7 @@ const About = () => {
           <div className='flex md:flex-row-reverse flex-col-reverse items-center
                 md:gap-9  gap-12 px-10 max-w-6xl mx-auto'>
              <div className='p-2'>
-                <div className='text-gray-300 my-3'>
+                <div className='text-gray-300 my-3' data-aos="fade-left">
                   <p className='text-justify leading-7 text-l'>
                   I am a Full Stack Developer with a focus on MERN Stack development. Adept at utilizing MongoDB, 
                   Express.js, React.js, and Node.js to build fast, efficient, and scalable web applications. 
@@ -32,7 +32,7 @@ const About = () => {
               </a>
              </div>
              <div className='flex-1 flex justify-center items-center'>
-              <div className='lg:w-96 h-full relative sm:w-10/12 w-11/12 max-w-sm aboutImg'>
+              <div className='lg:w-96 h-full relative sm:w-10/12 w-11/12 max-w-sm aboutImg' data-aos="fade-right">
                 <img  src={aboutImg} alt=''  className='w-full object-cover bg-cyan-600 rounded-xl' />
               </div>
              </div>

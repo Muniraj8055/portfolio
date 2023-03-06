@@ -5,15 +5,17 @@ const Skills = () => {
   
 
 <section id='qualification' className='py-20 items-center' >
-<h3 className='text-4xl text-center font-semibold'>
+    
+          <div data-aos="fade-right">
+          <h3 className='text-4xl text-center font-semibold'>
             QUALIFICATION
           </h3>
-          
+          </div>
           
           <div className='flex md:flex-row flex-col'>
          
            
-        <div className='justify-center px-10 mt-2 text-justify  '>
+        <div className='justify-center px-10 mt-2 text-justify ' data-aos="fade-up">
         
 
           <h3 className='text-3xl text-center text-cyan-600 font-medium my-6'><ion-icon name="school"></ion-icon> Education</h3>
@@ -57,7 +59,7 @@ const Skills = () => {
 </div>
 
             
-        <div className='justify-center px-10 mt-2 text-justify  '>
+        <div className='justify-center px-10 mt-2 text-justify ' data-aos="fade-up">
         <h3 className='text-3xl text-center font-medium my-6 text-cyan-600'>  <ion-icon name="briefcase"></ion-icon> Experience</h3>
             <ol class="border-l-2 border-gray-200">
         <li>
