@@ -47,7 +47,7 @@ const Hero = () => {
             </span>
             I'm <span>Muniraj</span>
           </h1>
-          <h4 className='md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-500'>Fullsatck Developer</h4>
+          <h4 className='md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-500'>Fullstack Developer</h4>
           
         </div>
         <div className='mt-8 text-3xl flex items-center md:justify-center justify-center gap-5'>
