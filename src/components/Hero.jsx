@@ -1,6 +1,6 @@
 
 import React from 'react'
-import hero from '../assets/muni.jpg'
+import hero from '../assets/muni3.jpg'
 
 
 
