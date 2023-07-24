@@ -70,18 +70,14 @@ const Skills = () => {
           </div>
           <div class="ml-6 mb-2 pb-6">
             <a href="#!" class="text-cyan-600 hover:text-blue-700 focus:text-blue-800 duration-300 transition ease-in-out text-sm">Nov 2021 - Present</a>
-            <p class="text-gray-300 mt-2 mb-4">
-              <b>Web Development<br/></b>
-              - Developing components in frontend unsing React.js<br/>
-              - Worked on feching API calls<br/><br/>
-              <b>Android Development<br/></b>
-              - Analysing the defects for finding the root cause of the issue in jira    tool<br/>
-              - with the help of root cause analysis debugging the code and resolve the    issue.<br/>
-
-
-        
+             <p class="text-gray-300 mt-2 mb-4">
+            - Worked as a Front-end Developer in a hotel room booking project.<br/>
+            - Utilized React.js to develop the user interface according to client specifications.<br/>
+            - Collaborated with the design team to implement an intuitive and visually appealing admin interface.<br/>
+            - Mainly concentrated efforts on the development of the admin section.<br/>
+            - Implemented features that enabled admins to create and manage room details efficiently.<br/>
+            - Actively participated in code review sessions to maintain code quality and best practices.<br/>
             </p>
-
           </div>
         </li>
         <li>
